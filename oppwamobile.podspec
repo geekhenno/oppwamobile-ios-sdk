@@ -1,4 +1,4 @@
-oppwamobile_version = '4.8.0'
+oppwamobile_version = '4.12.0'
 
 Pod::Spec.new do |s|
   s.name                   = 'oppwamobile'
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.cocoapods_version      = '>= 1.10.0'
   s.authors                = 'NyarTech LLC'
   s.pod_target_xcconfig    = { 'OTHER_LDFLAGS' => '-framework OPPWAMobile -framework ipworks3ds_sdk' }
-  s.preserve_paths = 'OPPWAMobile/OPPWAMobile.xcframework', 'OPPWAMobile/ipworks3ds_sdk'
+  s.preserve_paths = 'OPPWAMobile/OPPWAMobile.xcframework', 'OPPWAMobile/ipworks3ds_sdk.xcframework'
   s.vendored_frameworks = 'OPPWAMobile/OPPWAMobile.xcframework', 'OPPWAMobile/ipworks3ds_sdk.xcframework'
   s.static_framework       = true
 end
